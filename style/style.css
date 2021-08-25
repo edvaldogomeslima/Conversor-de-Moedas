@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .center{
+    width: 250px;
+    height: 230px;
+    background: #FDEB71;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .center .formGroup{
+    display: flex;
+    flex-direction: column;
+}
+.container .center .formGroup label{
+    margin: 5px;
+    text-align: center;
+}
+.container .center .formGroup input{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.container .center .btn-grad {background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)
+}
+.container .center .btn-grad {
+    margin: 10px;
+    width: 80%;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+    display: block;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.container .center .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
